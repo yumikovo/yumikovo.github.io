@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+/* 基本レイアウト ここから↓ */
+@import url(common.css);
+body {
+  background-color: #f3f2e9;
+}
+/* トップページ ここから↓ */
+#graphic {
+  width: 1060px;
+  margin: 0 auto 50px auto;
+}
+#graphic ul {
+  display: block;
+  list-style: none;
+  padding-left: 0;
+  position: relative;
+}
+#graphic ul li {
+  display: block;
+  opacity: 0;
+}
+#graphic ul li:nth-child(2), #graphic ul li:nth-child(3), #graphic ul li:nth-child(4), #graphic ul li:nth-child(5), #graphic ul li:nth-child(6) {
+  position: absolute;
+  top: 0;
+}
+#graphic ul li:nth-child(1) {
+  position: relative;
+  z-index: 6;
+}
+#graphic ul li:nth-child(2) {
+  z-index: 5;
+}
+#graphic ul li:nth-child(3) {
+  z-index: 4;
+}
+#graphic ul li:nth-child(4) {
+  z-index: 3;
+}
+#graphic ul li:nth-child(5) {
+  z-index: 2;
+}
+#graphic ul li:nth-child(6) {
+  z-index: 1;
+}
+#graphic ul li.now {
+  opacity: 1;
+}
+#graphic ul li.now:nth-child(1) {
+  z-index: 0;
+}
+#graphic ul li img {
+  vertical-align: bottom;
+}
+/* トップページ ここまで↑ */
+/* 「」ページ ここから↓ */
+.concept_box {
+  width: 739px;
+  text-align: left;
+  background-color: #f3f2e9;
+  opacity: 0.9;
+  color: #5f5039;
+}
+.concept_box:last-child {
+  margin-bottom: 0;
+}
+.concept_box h2 {
+  padding-bottom: 0px;
+  margin: 40px 40px 40 0;
+}
+.concept_box p {
+  margin: 0px 40px;
+  line-height: 4;
+  font-size: 108%;
+}
+.image_right {
+  margin: 0 20 20px 25px;
+  padding-left: 20px;
+  float: right;
+}
+/* 「MENU」ページ ここから↓ */
+#main3 {
+  width: 1060px;
+  margin: 0 0 30px 0px;
+  padding: 0px 0 30px 0px;
+  background-color: #f3f2e9;
+  opacity: 0.9;
+  color: #5f5039;
+}
+.menu_box {
+  width: 100%;
+  text-align: center;
+  background-color: #f3f2e9;
+  opacity: 0.9;
+  color: #5f5039;
+	font-size: 9pt;
+  line-height: 3;
+  margin: auto;
+  display: inline-block;
+}
+.menu_box:last-child {
+  margin-bottom: 0;
+}
+.menu_box h2 {
+  text-align: center;
+  padding-bottom: 0px;
+  margin: 30px 0px;
+  line-height: 2.5;
+}
+.menu_box h3 {
+  text-align: center;
+  font-size: 120%;
+  margin: 0 auto;
+  padding: 0px 0 0px 20px;
+  line-height: 2.5;
+}
+.menu_box p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#lunch {
+  width: 100%;
+  text-align: center;
+}
+#dinner {
+  width: 100%;
+  text-align: center;
+  margin-top: 90px;
+}
+.menu_box hr {
+  width: 80%;
+  margin-top: 20px;
+  text-align: center;
+}
+/* 「CONTACT」ページ ここから↓ */
+.form {
+  width: 739px;
+  text-align: left;
+  background-color: #f3f2e9;
+  opacity: 0.9;
+  color: #5f5039;
+  margin-bottom: 30px;
+}
+.form:last-child {
+  margin-bottom: 0;
+}
+.form h2 {
+  margin: 0 0 30px 0;
+  padding: 40px 0 10px 0px;
+  color: #5f5039;
+}
+.form p {
+  padding: 10px 40px;
+}
+.map_box {
+  width: 739px;
+  text-align: left;
+  background-color: #f3f2e9;
+  opacity: 0.9;
+  color: #5f5039;
+}
+.map_box:last-child {
+  margin-bottom: 0;
+}
+.map_box h2 {
+  padding-bottom: 0px;
+  margin: 40px 40px 40 0;
+}
+.map_box h3 {
+  padding-bottom: 0px;
+  margin: 0px auto 0 70px;
+}
+.map_box p {
+  padding-bottom: 0px;
+  margin: 0px 70px;
+}
+.map_box iframe {
+  margin: 0 70px;
+}
