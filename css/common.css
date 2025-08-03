@@ -37,8 +37,6 @@ html, body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  position: relative;
-  padding-bottom: 90px;
   box-sizing: border-box;
 }
 footer {
