@@ -10,6 +10,9 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 }
+html, body {
+  height: 100%;
+}
 #main {
   width: 739px;
   float: left;
