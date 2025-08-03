@@ -6,9 +6,9 @@ body {
   font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   color: #5f5039;
   background-image: url("../images/bg.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
 }
 #main {
   width: 739px;
