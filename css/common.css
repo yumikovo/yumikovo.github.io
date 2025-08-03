@@ -6,14 +6,9 @@ body {
   font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   color: #5f5039;
   background-image: url("../images/bg.jpg");
-  overflow-x: hidden;
-  height: 100%;
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-}
-html, body {
-  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
 }
 #main {
   width: 739px;
@@ -37,19 +32,21 @@ html, body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  position: relative;
+  padding-bottom: 90px;
   box-sizing: border-box;
 }
-
 footer {
-  margin-top: auto; /* ← 余った空間を使って最下部に押し下げる */
+  position: absolute;
+  bottom: 0;
+  margin: 0px;
   width: 100%;
   height: 90px;
   background-color: #f3f2e9;
   opacity: 0.9;
   text-align: center;
-  padding: 10px 0 0 0;
+  padding: 10px 0px 0px 0px;
 }
-
 header h1 {
   width: 100%;
   height: 100%;
@@ -201,11 +198,4 @@ address {
   letter-spacing: 0.1em;
   padding-bottom: 0px;
   vertical-align: bottom;
-}
-@media screen and (max-width: 767px) {
-  img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-  }
 }
